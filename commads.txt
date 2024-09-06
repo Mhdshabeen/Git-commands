@@ -9,3 +9,11 @@ git status [ check the untracked or modified files]
 git add -A [ to add all untracked files to the staging area]
 
 git commit -m "commit msg" [ to commit all the untracked files at the stagig area to local repository]
+
+git remote add remote_name path [ adding remote repository to local repository]
+eg: git remote orgin https://github.com/Mhdshabeen/Git-commands.git
+
+git push remote_name branch 
+eg:- git pusg orgin master
+
+git branch [ list the brances in the currrent working repository]
